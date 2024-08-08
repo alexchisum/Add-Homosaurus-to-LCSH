@@ -1,0 +1,44 @@
+
+<!-- PREFIX: Leave this section blank -->
+
+<!-- ROW TEMPLATE -->
+rule "add {{cells["Homosaurus_prefLabel"].value}}"
+priority 99
+when
+((exists "650.{-,0}.a.{{cells["LCSH_exactMatch_prefLabel"].value}}") OR (exists "650.{-,0}.a.{{cells["LCSH_exactMatch_prefLabel"].value}}\\\.")) 
+AND ((not exists "650.{-,7}.a.{{cells["Homosaurus_prefLabel"].value}}") 
+OR (exists "650.{-,7}.a.{{cells["Homosaurus_prefLabel"].value}}") AND (not exists "YLK.{-,7}.0.{{cells["Homosaurus_ID"].value}}"))
+then
+addField "YLK.{-,7}.a.{{cells["Homosaurus_prefLabel"].value}}\\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.{{cells["Homosaurus_prefLabel"].value}}\\\.")
+addSubField "YLK.{-,7}.0.{{cells["Homosaurus_ID"].value}}" if (exists "YLK.{-,7}.a.{{cells["Homosaurus_prefLabel"].value}}\\\.")
+end
+
+
+<!-- ROW SEPARATOR: Two line breaks (ENTER twice) -->
+
+<!-- SUFFIX (add two line breaks before the text of the suffix) -->
+
+rule "remove duplicate YLK subfields"
+priority 97
+when
+(TRUE)
+then
+correctDuplicateSubfields "YLK" "a,0,2"
+end
+
+rule "remove duplicate YLK fields"
+priority 96
+when
+(TRUE)
+then
+correctDuplicateFields "YLK"
+end
+
+rule "flip YLK to 650"
+priority 95
+when
+(TRUE)
+then
+changeField "YLK" to "650"
+end

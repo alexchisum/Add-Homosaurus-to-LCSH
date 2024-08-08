@@ -1,0 +1,1437 @@
+rule "add Leather bars"
+priority 99
+when
+((exists "650.{-,0}.a.Leather bars") OR (exists "650.{-,0}.a.Leather bars\\.")) 
+AND ((not exists "650.{-,7}.a.Leather bars") 
+OR (exists "650.{-,7}.a.Leather bars") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001553"))
+then
+addField "YLK.{-,7}.a.Leather bars\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Leather bars\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001553" if (exists "YLK.{-,7}.a.Leather bars\\.")
+end
+
+
+
+rule "add Internet forums"
+priority 99
+when
+((exists "650.{-,0}.a.Electronic discussion groups") OR (exists "650.{-,0}.a.Electronic discussion groups\\.")) 
+AND ((not exists "650.{-,7}.a.Internet forums") 
+OR (exists "650.{-,7}.a.Internet forums") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000665"))
+then
+addField "YLK.{-,7}.a.Internet forums\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Internet forums\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000665" if (exists "YLK.{-,7}.a.Internet forums\\.")
+end
+
+
+
+rule "add Bisexual youth"
+priority 99
+when
+((exists "650.{-,0}.a.Bisexual youth") OR (exists "650.{-,0}.a.Bisexual youth\\.")) 
+AND ((not exists "650.{-,7}.a.Bisexual youth") 
+OR (exists "650.{-,7}.a.Bisexual youth") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000192"))
+then
+addField "YLK.{-,7}.a.Bisexual youth\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Bisexual youth\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000192" if (exists "YLK.{-,7}.a.Bisexual youth\\.")
+end
+
+
+
+rule "add Erotomania"
+priority 99
+when
+((exists "650.{-,0}.a.Erotomania") OR (exists "650.{-,0}.a.Erotomania\\.")) 
+AND ((not exists "650.{-,7}.a.Erotomania") 
+OR (exists "650.{-,7}.a.Erotomania") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001538"))
+then
+addField "YLK.{-,7}.a.Erotomania\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Erotomania\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001538" if (exists "YLK.{-,7}.a.Erotomania\\.")
+end
+
+
+
+rule "add Hyperandrogenism"
+priority 99
+when
+((exists "650.{-,0}.a.Hyperandrogenism") OR (exists "650.{-,0}.a.Hyperandrogenism\\.")) 
+AND ((not exists "650.{-,7}.a.Hyperandrogenism") 
+OR (exists "650.{-,7}.a.Hyperandrogenism") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002842"))
+then
+addField "YLK.{-,7}.a.Hyperandrogenism\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Hyperandrogenism\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002842" if (exists "YLK.{-,7}.a.Hyperandrogenism\\.")
+end
+
+
+
+rule "add Self-insemination"
+priority 99
+when
+((exists "650.{-,0}.a.Self-insemination") OR (exists "650.{-,0}.a.Self-insemination\\.")) 
+AND ((not exists "650.{-,7}.a.Self-insemination") 
+OR (exists "650.{-,7}.a.Self-insemination") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001265"))
+then
+addField "YLK.{-,7}.a.Self-insemination\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Self-insemination\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001265" if (exists "YLK.{-,7}.a.Self-insemination\\.")
+end
+
+
+
+rule "add Asian American lesbians"
+priority 99
+when
+((exists "650.{-,0}.a.Asian American lesbians") OR (exists "650.{-,0}.a.Asian American lesbians\\.")) 
+AND ((not exists "650.{-,7}.a.Asian American lesbians") 
+OR (exists "650.{-,7}.a.Asian American lesbians") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000721"))
+then
+addField "YLK.{-,7}.a.Asian American lesbians\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Asian American lesbians\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000721" if (exists "YLK.{-,7}.a.Asian American lesbians\\.")
+end
+
+
+
+rule "add Love triangles"
+priority 99
+when
+((exists "650.{-,0}.a.Triangles (Interpersonal relations)") OR (exists "650.{-,0}.a.Triangles (Interpersonal relations)\\.")) 
+AND ((not exists "650.{-,7}.a.Love triangles") 
+OR (exists "650.{-,7}.a.Love triangles") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000976"))
+then
+addField "YLK.{-,7}.a.Love triangles\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Love triangles\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000976" if (exists "YLK.{-,7}.a.Love triangles\\.")
+end
+
+
+
+rule "add Lesbian erotic art"
+priority 99
+when
+((exists "650.{-,0}.a.Lesbian erotic art") OR (exists "650.{-,0}.a.Lesbian erotic art\\.")) 
+AND ((not exists "650.{-,7}.a.Lesbian erotic art") 
+OR (exists "650.{-,7}.a.Lesbian erotic art") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002607"))
+then
+addField "YLK.{-,7}.a.Lesbian erotic art\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Lesbian erotic art\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002607" if (exists "YLK.{-,7}.a.Lesbian erotic art\\.")
+end
+
+
+
+rule "add Jewish lesbians"
+priority 99
+when
+((exists "650.{-,0}.a.Jewish lesbians") OR (exists "650.{-,0}.a.Jewish lesbians\\.")) 
+AND ((not exists "650.{-,7}.a.Jewish lesbians") 
+OR (exists "650.{-,7}.a.Jewish lesbians") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000745"))
+then
+addField "YLK.{-,7}.a.Jewish lesbians\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Jewish lesbians\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000745" if (exists "YLK.{-,7}.a.Jewish lesbians\\.")
+end
+
+
+
+rule "add Sex tourism"
+priority 99
+when
+((exists "650.{-,0}.a.Sex tourism") OR (exists "650.{-,0}.a.Sex tourism\\.")) 
+AND ((not exists "650.{-,7}.a.Sex tourism") 
+OR (exists "650.{-,7}.a.Sex tourism") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001275"))
+then
+addField "YLK.{-,7}.a.Sex tourism\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Sex tourism\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001275" if (exists "YLK.{-,7}.a.Sex tourism\\.")
+end
+
+
+
+rule "add Lubricants"
+priority 99
+when
+((exists "650.{-,0}.a.Lubrication and lubricants") OR (exists "650.{-,0}.a.Lubrication and lubricants\\.")) 
+AND ((not exists "650.{-,7}.a.Lubricants") 
+OR (exists "650.{-,7}.a.Lubricants") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000977"))
+then
+addField "YLK.{-,7}.a.Lubricants\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Lubricants\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000977" if (exists "YLK.{-,7}.a.Lubricants\\.")
+end
+
+
+
+rule "add Lingerie"
+priority 99
+when
+((exists "650.{-,0}.a.Lingerie") OR (exists "650.{-,0}.a.Lingerie\\.")) 
+AND ((not exists "650.{-,7}.a.Lingerie") 
+OR (exists "650.{-,7}.a.Lingerie") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000970"))
+then
+addField "YLK.{-,7}.a.Lingerie\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Lingerie\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000970" if (exists "YLK.{-,7}.a.Lingerie\\.")
+end
+
+
+
+rule "add Lesbians"
+priority 99
+when
+((exists "650.{-,0}.a.Lesbians") OR (exists "650.{-,0}.a.Lesbians\\.")) 
+AND ((not exists "650.{-,7}.a.Lesbians") 
+OR (exists "650.{-,7}.a.Lesbians") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000556"))
+then
+addField "YLK.{-,7}.a.Lesbians\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Lesbians\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000556" if (exists "YLK.{-,7}.a.Lesbians\\.")
+end
+
+
+
+rule "add Lesbianism"
+priority 99
+when
+((exists "650.{-,0}.a.Lesbianism") OR (exists "650.{-,0}.a.Lesbianism\\.")) 
+AND ((not exists "650.{-,7}.a.Lesbianism") 
+OR (exists "650.{-,7}.a.Lesbianism") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000799"))
+then
+addField "YLK.{-,7}.a.Lesbianism\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Lesbianism\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000799" if (exists "YLK.{-,7}.a.Lesbianism\\.")
+end
+
+
+
+rule "add Lesbian parents"
+priority 99
+when
+((exists "650.{-,0}.a.Lesbian mothers") OR (exists "650.{-,0}.a.Lesbian mothers\\.")) 
+AND ((not exists "650.{-,7}.a.Lesbian parents") 
+OR (exists "650.{-,7}.a.Lesbian parents") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000752"))
+then
+addField "YLK.{-,7}.a.Lesbian parents\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Lesbian parents\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000752" if (exists "YLK.{-,7}.a.Lesbian parents\\.")
+end
+
+
+
+rule "add Lesbian couples"
+priority 99
+when
+((exists "650.{-,0}.a.Lesbian couples") OR (exists "650.{-,0}.a.Lesbian couples\\.")) 
+AND ((not exists "650.{-,7}.a.Lesbian couples") 
+OR (exists "650.{-,7}.a.Lesbian couples") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000735"))
+then
+addField "YLK.{-,7}.a.Lesbian couples\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Lesbian couples\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000735" if (exists "YLK.{-,7}.a.Lesbian couples\\.")
+end
+
+
+
+rule "add Kissing"
+priority 99
+when
+((exists "650.{-,0}.a.Kissing") OR (exists "650.{-,0}.a.Kissing\\.")) 
+AND ((not exists "650.{-,7}.a.Kissing") 
+OR (exists "650.{-,7}.a.Kissing") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000691"))
+then
+addField "YLK.{-,7}.a.Kissing\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Kissing\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000691" if (exists "YLK.{-,7}.a.Kissing\\.")
+end
+
+
+
+rule "add Kabuki"
+priority 99
+when
+((exists "650.{-,0}.a.Kabuki") OR (exists "650.{-,0}.a.Kabuki\\.")) 
+AND ((not exists "650.{-,7}.a.Kabuki") 
+OR (exists "650.{-,7}.a.Kabuki") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000685"))
+then
+addField "YLK.{-,7}.a.Kabuki\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Kabuki\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000685" if (exists "YLK.{-,7}.a.Kabuki\\.")
+end
+
+
+
+rule "add Intergenerational relationships"
+priority 99
+when
+((exists "650.{-,0}.a.Intergenerational relations") OR (exists "650.{-,0}.a.Intergenerational relations\\.")) 
+AND ((not exists "650.{-,7}.a.Intergenerational relationships") 
+OR (exists "650.{-,7}.a.Intergenerational relationships") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000663"))
+then
+addField "YLK.{-,7}.a.Intergenerational relationships\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Intergenerational relationships\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000663" if (exists "YLK.{-,7}.a.Intergenerational relationships\\.")
+end
+
+
+
+rule "add Erectile dysfunction"
+priority 99
+when
+((exists "650.{-,0}.a.Impotence") OR (exists "650.{-,0}.a.Impotence\\.")) 
+AND ((not exists "650.{-,7}.a.Erectile dysfunction") 
+OR (exists "650.{-,7}.a.Erectile dysfunction") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000398"))
+then
+addField "YLK.{-,7}.a.Erectile dysfunction\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Erectile dysfunction\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000398" if (exists "YLK.{-,7}.a.Erectile dysfunction\\.")
+end
+
+
+
+rule "add Male impersonators"
+priority 99
+when
+((exists "650.{-,0}.a.Male impersonators") OR (exists "650.{-,0}.a.Male impersonators\\.")) 
+AND ((not exists "650.{-,7}.a.Male impersonators") 
+OR (exists "650.{-,7}.a.Male impersonators") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000983"))
+then
+addField "YLK.{-,7}.a.Male impersonators\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Male impersonators\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000983" if (exists "YLK.{-,7}.a.Male impersonators\\.")
+end
+
+
+
+rule "add Female impersonators"
+priority 99
+when
+((exists "650.{-,0}.a.Female impersonators") OR (exists "650.{-,0}.a.Female impersonators\\.")) 
+AND ((not exists "650.{-,7}.a.Female impersonators") 
+OR (exists "650.{-,7}.a.Female impersonators") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000431"))
+then
+addField "YLK.{-,7}.a.Female impersonators\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Female impersonators\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000431" if (exists "YLK.{-,7}.a.Female impersonators\\.")
+end
+
+
+
+rule "add Hysterectomy"
+priority 99
+when
+((exists "650.{-,0}.a.Hysterectomy") OR (exists "650.{-,0}.a.Hysterectomy\\.")) 
+AND ((not exists "650.{-,7}.a.Hysterectomy") 
+OR (exists "650.{-,7}.a.Hysterectomy") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000658"))
+then
+addField "YLK.{-,7}.a.Hysterectomy\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Hysterectomy\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000658" if (exists "YLK.{-,7}.a.Hysterectomy\\.")
+end
+
+
+
+rule "add Hypospadias"
+priority 99
+when
+((exists "650.{-,0}.a.Hypospadias") OR (exists "650.{-,0}.a.Hypospadias\\.")) 
+AND ((not exists "650.{-,7}.a.Hypospadias") 
+OR (exists "650.{-,7}.a.Hypospadias") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000657"))
+then
+addField "YLK.{-,7}.a.Hypospadias\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Hypospadias\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000657" if (exists "YLK.{-,7}.a.Hypospadias\\.")
+end
+
+
+
+rule "add Hypogonadism"
+priority 99
+when
+((exists "650.{-,0}.a.Hypogonadism") OR (exists "650.{-,0}.a.Hypogonadism\\.")) 
+AND ((not exists "650.{-,7}.a.Hypogonadism") 
+OR (exists "650.{-,7}.a.Hypogonadism") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002843"))
+then
+addField "YLK.{-,7}.a.Hypogonadism\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Hypogonadism\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002843" if (exists "YLK.{-,7}.a.Hypogonadism\\.")
+end
+
+
+
+rule "add Sexual health"
+priority 99
+when
+((exists "650.{-,0}.a.Sexual health") OR (exists "650.{-,0}.a.Sexual health\\.")) 
+AND ((not exists "650.{-,7}.a.Sexual health") 
+OR (exists "650.{-,7}.a.Sexual health") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001294"))
+then
+addField "YLK.{-,7}.a.Sexual health\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Sexual health\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001294" if (exists "YLK.{-,7}.a.Sexual health\\.")
+end
+
+
+
+rule "add Hormones"
+priority 99
+when
+((exists "650.{-,0}.a.Hormones") OR (exists "650.{-,0}.a.Hormones\\.")) 
+AND ((not exists "650.{-,7}.a.Hormones") 
+OR (exists "650.{-,7}.a.Hormones") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000651"))
+then
+addField "YLK.{-,7}.a.Hormones\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Hormones\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000651" if (exists "YLK.{-,7}.a.Hormones\\.")
+end
+
+
+
+rule "add Hormone blockers"
+priority 99
+when
+((exists "650.{-,0}.a.Hormone antagonists") OR (exists "650.{-,0}.a.Hormone antagonists\\.")) 
+AND ((not exists "650.{-,7}.a.Hormone blockers") 
+OR (exists "650.{-,7}.a.Hormone blockers") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000650"))
+then
+addField "YLK.{-,7}.a.Hormone blockers\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Hormone blockers\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000650" if (exists "YLK.{-,7}.a.Hormone blockers\\.")
+end
+
+
+
+rule "add Gay men"
+priority 99
+when
+((exists "650.{-,0}.a.Gay men") OR (exists "650.{-,0}.a.Gay men\\.")) 
+AND ((not exists "650.{-,7}.a.Gay men") 
+OR (exists "650.{-,7}.a.Gay men") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000506"))
+then
+addField "YLK.{-,7}.a.Gay men\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Gay men\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000506" if (exists "YLK.{-,7}.a.Gay men\\.")
+end
+
+
+
+rule "add Homosexuals"
+priority 99
+when
+((exists "650.{-,0}.a.Gay people") OR (exists "650.{-,0}.a.Gay people\\.")) 
+AND ((not exists "650.{-,7}.a.Homosexuals") 
+OR (exists "650.{-,7}.a.Homosexuals") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000648"))
+then
+addField "YLK.{-,7}.a.Homosexuals\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Homosexuals\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000648" if (exists "YLK.{-,7}.a.Homosexuals\\.")
+end
+
+
+
+rule "add Homosexuality"
+priority 99
+when
+((exists "650.{-,0}.a.Homosexuality") OR (exists "650.{-,0}.a.Homosexuality\\.")) 
+AND ((not exists "650.{-,7}.a.Homosexuality") 
+OR (exists "650.{-,7}.a.Homosexuality") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000647"))
+then
+addField "YLK.{-,7}.a.Homosexuality\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Homosexuality\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000647" if (exists "YLK.{-,7}.a.Homosexuality\\.")
+end
+
+
+
+rule "add Gay parents"
+priority 99
+when
+((exists "650.{-,0}.a.Gay parents") OR (exists "650.{-,0}.a.Gay parents\\.")) 
+AND ((not exists "650.{-,7}.a.Gay parents") 
+OR (exists "650.{-,7}.a.Gay parents") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000492"))
+then
+addField "YLK.{-,7}.a.Gay parents\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Gay parents\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000492" if (exists "YLK.{-,7}.a.Gay parents\\.")
+end
+
+
+
+rule "add Gay couples"
+priority 99
+when
+((exists "650.{-,0}.a.Gay couples") OR (exists "650.{-,0}.a.Gay couples\\.")) 
+AND ((not exists "650.{-,7}.a.Gay couples") 
+OR (exists "650.{-,7}.a.Gay couples") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000503"))
+then
+addField "YLK.{-,7}.a.Gay couples\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Gay couples\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000503" if (exists "YLK.{-,7}.a.Gay couples\\.")
+end
+
+
+
+rule "add Intersex variations"
+priority 99
+when
+((exists "650.{-,0}.a.Intersexuality") OR (exists "650.{-,0}.a.Intersexuality\\.")) 
+AND ((not exists "650.{-,7}.a.Intersex variations") 
+OR (exists "650.{-,7}.a.Intersex variations") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000669"))
+then
+addField "YLK.{-,7}.a.Intersex variations\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Intersex variations\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000669" if (exists "YLK.{-,7}.a.Intersex variations\\.")
+end
+
+
+
+rule "add Handcuffs"
+priority 99
+when
+((exists "650.{-,0}.a.Handcuffs") OR (exists "650.{-,0}.a.Handcuffs\\.")) 
+AND ((not exists "650.{-,7}.a.Handcuffs") 
+OR (exists "650.{-,7}.a.Handcuffs") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000608"))
+then
+addField "YLK.{-,7}.a.Handcuffs\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Handcuffs\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000608" if (exists "YLK.{-,7}.a.Handcuffs\\.")
+end
+
+
+
+rule "add Hair"
+priority 99
+when
+((exists "650.{-,0}.a.Hair") OR (exists "650.{-,0}.a.Hair\\.")) 
+AND ((not exists "650.{-,7}.a.Hair") 
+OR (exists "650.{-,7}.a.Hair") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000605"))
+then
+addField "YLK.{-,7}.a.Hair\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Hair\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000605" if (exists "YLK.{-,7}.a.Hair\\.")
+end
+
+
+
+rule "add Group sex"
+priority 99
+when
+((exists "650.{-,0}.a.Group sex") OR (exists "650.{-,0}.a.Group sex\\.")) 
+AND ((not exists "650.{-,7}.a.Group sex") 
+OR (exists "650.{-,7}.a.Group sex") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000603"))
+then
+addField "YLK.{-,7}.a.Group sex\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Group sex\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000603" if (exists "YLK.{-,7}.a.Group sex\\.")
+end
+
+
+
+rule "add Grandparents"
+priority 99
+when
+((exists "650.{-,0}.a.Grandparents") OR (exists "650.{-,0}.a.Grandparents\\.")) 
+AND ((not exists "650.{-,7}.a.Grandparents") 
+OR (exists "650.{-,7}.a.Grandparents") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000602"))
+then
+addField "YLK.{-,7}.a.Grandparents\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Grandparents\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000602" if (exists "YLK.{-,7}.a.Grandparents\\.")
+end
+
+
+
+rule "add Gonads"
+priority 99
+when
+((exists "650.{-,0}.a.Gonads") OR (exists "650.{-,0}.a.Gonads\\.")) 
+AND ((not exists "650.{-,7}.a.Gonads") 
+OR (exists "650.{-,7}.a.Gonads") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000600"))
+then
+addField "YLK.{-,7}.a.Gonads\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Gonads\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000600" if (exists "YLK.{-,7}.a.Gonads\\.")
+end
+
+
+
+rule "add Girls"
+priority 99
+when
+((exists "650.{-,0}.a.Girls") OR (exists "650.{-,0}.a.Girls\\.")) 
+AND ((not exists "650.{-,7}.a.Girls") 
+OR (exists "650.{-,7}.a.Girls") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000590"))
+then
+addField "YLK.{-,7}.a.Girls\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Girls\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000590" if (exists "YLK.{-,7}.a.Girls\\.")
+end
+
+
+
+rule "add Genitals"
+priority 99
+when
+((exists "650.{-,0}.a.Generative organs") OR (exists "650.{-,0}.a.Generative organs\\.")) 
+AND ((not exists "650.{-,7}.a.Genitals") 
+OR (exists "650.{-,7}.a.Genitals") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000585"))
+then
+addField "YLK.{-,7}.a.Genitals\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Genitals\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000585" if (exists "YLK.{-,7}.a.Genitals\\.")
+end
+
+
+
+rule "add Gender identity disorder"
+priority 99
+when
+((exists "650.{-,0}.a.Gender dysphoria") OR (exists "650.{-,0}.a.Gender dysphoria\\.")) 
+AND ((not exists "650.{-,7}.a.Gender identity disorder") 
+OR (exists "650.{-,7}.a.Gender identity disorder") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000572"))
+then
+addField "YLK.{-,7}.a.Gender identity disorder\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Gender identity disorder\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000572" if (exists "YLK.{-,7}.a.Gender identity disorder\\.")
+end
+
+
+
+rule "add Gay bars"
+priority 99
+when
+((exists "650.{-,0}.a.Gay bars") OR (exists "650.{-,0}.a.Gay bars\\.")) 
+AND ((not exists "650.{-,7}.a.Gay bars") 
+OR (exists "650.{-,7}.a.Gay bars") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000474"))
+then
+addField "YLK.{-,7}.a.Gay bars\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Gay bars\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000474" if (exists "YLK.{-,7}.a.Gay bars\\.")
+end
+
+
+
+rule "add Friendships"
+priority 99
+when
+((exists "650.{-,0}.a.Friendship") OR (exists "650.{-,0}.a.Friendship\\.")) 
+AND ((not exists "650.{-,7}.a.Friendships") 
+OR (exists "650.{-,7}.a.Friendships") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000455"))
+then
+addField "YLK.{-,7}.a.Friendships\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Friendships\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000455" if (exists "YLK.{-,7}.a.Friendships\\.")
+end
+
+
+
+rule "add Foster parents"
+priority 99
+when
+((exists "650.{-,0}.a.Foster parents") OR (exists "650.{-,0}.a.Foster parents\\.")) 
+AND ((not exists "650.{-,7}.a.Foster parents") 
+OR (exists "650.{-,7}.a.Foster parents") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000452"))
+then
+addField "YLK.{-,7}.a.Foster parents\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Foster parents\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000452" if (exists "YLK.{-,7}.a.Foster parents\\.")
+end
+
+
+
+rule "add Flagellation"
+priority 99
+when
+((exists "650.{-,0}.a.Flagellation") OR (exists "650.{-,0}.a.Flagellation\\.")) 
+AND ((not exists "650.{-,7}.a.Flagellation") 
+OR (exists "650.{-,7}.a.Flagellation") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000447"))
+then
+addField "YLK.{-,7}.a.Flagellation\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Flagellation\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000447" if (exists "YLK.{-,7}.a.Flagellation\\.")
+end
+
+
+
+rule "add In vitro fertilization"
+priority 99
+when
+((exists "650.{-,0}.a.Fertilization in vitro") OR (exists "650.{-,0}.a.Fertilization in vitro\\.")) 
+AND ((not exists "650.{-,7}.a.In vitro fertilization") 
+OR (exists "650.{-,7}.a.In vitro fertilization") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000659"))
+then
+addField "YLK.{-,7}.a.In vitro fertilization\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.In vitro fertilization\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000659" if (exists "YLK.{-,7}.a.In vitro fertilization\\.")
+end
+
+
+
+rule "add Feminists"
+priority 99
+when
+((exists "650.{-,0}.a.Feminists") OR (exists "650.{-,0}.a.Feminists\\.")) 
+AND ((not exists "650.{-,7}.a.Feminists") 
+OR (exists "650.{-,7}.a.Feminists") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000439"))
+then
+addField "YLK.{-,7}.a.Feminists\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Feminists\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000439" if (exists "YLK.{-,7}.a.Feminists\\.")
+end
+
+
+
+rule "add Feminism"
+priority 99
+when
+((exists "650.{-,0}.a.Feminism") OR (exists "650.{-,0}.a.Feminism\\.")) 
+AND ((not exists "650.{-,7}.a.Feminism") 
+OR (exists "650.{-,7}.a.Feminism") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000437"))
+then
+addField "YLK.{-,7}.a.Feminism\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Feminism\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000437" if (exists "YLK.{-,7}.a.Feminism\\.")
+end
+
+
+
+rule "add Fathers"
+priority 99
+when
+((exists "650.{-,0}.a.Fathers") OR (exists "650.{-,0}.a.Fathers\\.")) 
+AND ((not exists "650.{-,7}.a.Fathers") 
+OR (exists "650.{-,7}.a.Fathers") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000423"))
+then
+addField "YLK.{-,7}.a.Fathers\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Fathers\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000423" if (exists "YLK.{-,7}.a.Fathers\\.")
+end
+
+
+
+rule "add Exhibitionism"
+priority 99
+when
+((exists "650.{-,0}.a.Exhibitionism") OR (exists "650.{-,0}.a.Exhibitionism\\.")) 
+AND ((not exists "650.{-,7}.a.Exhibitionism") 
+OR (exists "650.{-,7}.a.Exhibitionism") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000412"))
+then
+addField "YLK.{-,7}.a.Exhibitionism\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Exhibitionism\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000412" if (exists "YLK.{-,7}.a.Exhibitionism\\.")
+end
+
+
+
+rule "add Eunuchs"
+priority 99
+when
+((exists "650.{-,0}.a.Eunuchs") OR (exists "650.{-,0}.a.Eunuchs\\.")) 
+AND ((not exists "650.{-,7}.a.Eunuchs") 
+OR (exists "650.{-,7}.a.Eunuchs") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000240"))
+then
+addField "YLK.{-,7}.a.Eunuchs\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Eunuchs\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000240" if (exists "YLK.{-,7}.a.Eunuchs\\.")
+end
+
+
+
+rule "add Estrogen"
+priority 99
+when
+((exists "650.{-,0}.a.Estrogen") OR (exists "650.{-,0}.a.Estrogen\\.")) 
+AND ((not exists "650.{-,7}.a.Estrogen") 
+OR (exists "650.{-,7}.a.Estrogen") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000407"))
+then
+addField "YLK.{-,7}.a.Estrogen\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Estrogen\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000407" if (exists "YLK.{-,7}.a.Estrogen\\.")
+end
+
+
+
+rule "add Escort services"
+priority 99
+when
+((exists "650.{-,0}.a.Escort services") OR (exists "650.{-,0}.a.Escort services\\.")) 
+AND ((not exists "650.{-,7}.a.Escort services") 
+OR (exists "650.{-,7}.a.Escort services") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000405"))
+then
+addField "YLK.{-,7}.a.Escort services\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Escort services\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000405" if (exists "YLK.{-,7}.a.Escort services\\.")
+end
+
+
+
+rule "add Erotica"
+priority 99
+when
+((exists "650.{-,0}.a.Erotica") OR (exists "650.{-,0}.a.Erotica\\.")) 
+AND ((not exists "650.{-,7}.a.Erotica") 
+OR (exists "650.{-,7}.a.Erotica") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000403"))
+then
+addField "YLK.{-,7}.a.Erotica\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Erotica\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000403" if (exists "YLK.{-,7}.a.Erotica\\.")
+end
+
+
+
+rule "add Epispadias"
+priority 99
+when
+((exists "650.{-,0}.a.Epispadias") OR (exists "650.{-,0}.a.Epispadias\\.")) 
+AND ((not exists "650.{-,7}.a.Epispadias") 
+OR (exists "650.{-,7}.a.Epispadias") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002836"))
+then
+addField "YLK.{-,7}.a.Epispadias\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Epispadias\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002836" if (exists "YLK.{-,7}.a.Epispadias\\.")
+end
+
+
+
+rule "add Enemas"
+priority 99
+when
+((exists "650.{-,0}.a.Enema") OR (exists "650.{-,0}.a.Enema\\.")) 
+AND ((not exists "650.{-,7}.a.Enemas") 
+OR (exists "650.{-,7}.a.Enemas") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000293"))
+then
+addField "YLK.{-,7}.a.Enemas\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Enemas\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000293" if (exists "YLK.{-,7}.a.Enemas\\.")
+end
+
+
+
+rule "add Electroshock therapy"
+priority 99
+when
+((exists "650.{-,0}.a.Electroconvulsive therapy") OR (exists "650.{-,0}.a.Electroconvulsive therapy\\.")) 
+AND ((not exists "650.{-,7}.a.Electroshock therapy") 
+OR (exists "650.{-,7}.a.Electroshock therapy") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000394"))
+then
+addField "YLK.{-,7}.a.Electroshock therapy\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Electroshock therapy\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000394" if (exists "YLK.{-,7}.a.Electroshock therapy\\.")
+end
+
+
+
+rule "add Medication"
+priority 99
+when
+((exists "650.{-,0}.a.Drugs") OR (exists "650.{-,0}.a.Drugs\\.")) 
+AND ((not exists "650.{-,7}.a.Medication") 
+OR (exists "650.{-,7}.a.Medication") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001007"))
+then
+addField "YLK.{-,7}.a.Medication\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Medication\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001007" if (exists "YLK.{-,7}.a.Medication\\.")
+end
+
+
+
+rule "add Divorced people"
+priority 99
+when
+((exists "650.{-,0}.a.Divorced people") OR (exists "650.{-,0}.a.Divorced people\\.")) 
+AND ((not exists "650.{-,7}.a.Divorced people") 
+OR (exists "650.{-,7}.a.Divorced people") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000359"))
+then
+addField "YLK.{-,7}.a.Divorced people\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Divorced people\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000359" if (exists "YLK.{-,7}.a.Divorced people\\.")
+end
+
+
+
+rule "add Decriminalization"
+priority 99
+when
+((exists "650.{-,0}.a.Decriminalization") OR (exists "650.{-,0}.a.Decriminalization\\.")) 
+AND ((not exists "650.{-,7}.a.Decriminalization") 
+OR (exists "650.{-,7}.a.Decriminalization") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000339"))
+then
+addField "YLK.{-,7}.a.Decriminalization\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Decriminalization\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000339" if (exists "YLK.{-,7}.a.Decriminalization\\.")
+end
+
+
+
+rule "add Dandies"
+priority 99
+when
+((exists "650.{-,0}.a.Dandies") OR (exists "650.{-,0}.a.Dandies\\.")) 
+AND ((not exists "650.{-,7}.a.Dandies") 
+OR (exists "650.{-,7}.a.Dandies") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000326"))
+then
+addField "YLK.{-,7}.a.Dandies\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Dandies\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000326" if (exists "YLK.{-,7}.a.Dandies\\.")
+end
+
+
+
+rule "add Dental dams"
+priority 99
+when
+((exists "650.{-,0}.a.Dams (Dentistry)") OR (exists "650.{-,0}.a.Dams (Dentistry)\\.")) 
+AND ((not exists "650.{-,7}.a.Dental dams") 
+OR (exists "650.{-,7}.a.Dental dams") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000346"))
+then
+addField "YLK.{-,7}.a.Dental dams\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Dental dams\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000346" if (exists "YLK.{-,7}.a.Dental dams\\.")
+end
+
+
+
+rule "add Child custody"
+priority 99
+when
+((exists "650.{-,0}.a.Custody of children") OR (exists "650.{-,0}.a.Custody of children\\.")) 
+AND ((not exists "650.{-,7}.a.Child custody") 
+OR (exists "650.{-,7}.a.Child custody") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000254"))
+then
+addField "YLK.{-,7}.a.Child custody\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Child custody\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000254" if (exists "YLK.{-,7}.a.Child custody\\.")
+end
+
+
+
+rule "add Cryptorchidism"
+priority 99
+when
+((exists "650.{-,0}.a.Cryptorchism") OR (exists "650.{-,0}.a.Cryptorchism\\.")) 
+AND ((not exists "650.{-,7}.a.Cryptorchidism") 
+OR (exists "650.{-,7}.a.Cryptorchidism") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002832"))
+then
+addField "YLK.{-,7}.a.Cryptorchidism\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Cryptorchidism\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002832" if (exists "YLK.{-,7}.a.Cryptorchidism\\.")
+end
+
+
+
+rule "add Criminal law"
+priority 99
+when
+((exists "650.{-,0}.a.Criminal law") OR (exists "650.{-,0}.a.Criminal law\\.")) 
+AND ((not exists "650.{-,7}.a.Criminal law") 
+OR (exists "650.{-,7}.a.Criminal law") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000313"))
+then
+addField "YLK.{-,7}.a.Criminal law\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Criminal law\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000313" if (exists "YLK.{-,7}.a.Criminal law\\.")
+end
+
+
+
+rule "add Costumes"
+priority 99
+when
+((exists "650.{-,0}.a.Costume") OR (exists "650.{-,0}.a.Costume\\.")) 
+AND ((not exists "650.{-,7}.a.Costumes") 
+OR (exists "650.{-,7}.a.Costumes") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001808"))
+then
+addField "YLK.{-,7}.a.Costumes\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Costumes\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001808" if (exists "YLK.{-,7}.a.Costumes\\.")
+end
+
+
+
+rule "add Corsets"
+priority 99
+when
+((exists "650.{-,0}.a.Corsets") OR (exists "650.{-,0}.a.Corsets\\.")) 
+AND ((not exists "650.{-,7}.a.Corsets") 
+OR (exists "650.{-,7}.a.Corsets") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000307"))
+then
+addField "YLK.{-,7}.a.Corsets\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Corsets\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000307" if (exists "YLK.{-,7}.a.Corsets\\.")
+end
+
+
+
+rule "add Condoms"
+priority 99
+when
+((exists "650.{-,0}.a.Condoms") OR (exists "650.{-,0}.a.Condoms\\.")) 
+AND ((not exists "650.{-,7}.a.Condoms") 
+OR (exists "650.{-,7}.a.Condoms") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000299"))
+then
+addField "YLK.{-,7}.a.Condoms\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Condoms\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000299" if (exists "YLK.{-,7}.a.Condoms\\.")
+end
+
+
+
+rule "add Common law marriage"
+priority 99
+when
+((exists "650.{-,0}.a.Common law marriage") OR (exists "650.{-,0}.a.Common law marriage\\.")) 
+AND ((not exists "650.{-,7}.a.Common law marriage") 
+OR (exists "650.{-,7}.a.Common law marriage") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000296"))
+then
+addField "YLK.{-,7}.a.Common law marriage\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Common law marriage\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000296" if (exists "YLK.{-,7}.a.Common law marriage\\.")
+end
+
+
+
+rule "add Collars"
+priority 99
+when
+((exists "650.{-,0}.a.Collars") OR (exists "650.{-,0}.a.Collars\\.")) 
+AND ((not exists "650.{-,7}.a.Collars") 
+OR (exists "650.{-,7}.a.Collars") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000294"))
+then
+addField "YLK.{-,7}.a.Collars\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Collars\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000294" if (exists "YLK.{-,7}.a.Collars\\.")
+end
+
+
+
+rule "add Clitoris"
+priority 99
+when
+((exists "650.{-,0}.a.Clitoris") OR (exists "650.{-,0}.a.Clitoris\\.")) 
+AND ((not exists "650.{-,7}.a.Clitoris") 
+OR (exists "650.{-,7}.a.Clitoris") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000282"))
+then
+addField "YLK.{-,7}.a.Clitoris\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Clitoris\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000282" if (exists "YLK.{-,7}.a.Clitoris\\.")
+end
+
+
+
+rule "add Clitoridectomy"
+priority 99
+when
+((exists "650.{-,0}.a.Clitoridectomy") OR (exists "650.{-,0}.a.Clitoridectomy\\.")) 
+AND ((not exists "650.{-,7}.a.Clitoridectomy") 
+OR (exists "650.{-,7}.a.Clitoridectomy") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000281"))
+then
+addField "YLK.{-,7}.a.Clitoridectomy\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Clitoridectomy\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000281" if (exists "YLK.{-,7}.a.Clitoridectomy\\.")
+end
+
+
+
+rule "add Human rights"
+priority 99
+when
+((exists "650.{-,0}.a.Human rights") OR (exists "650.{-,0}.a.Human rights\\.")) 
+AND ((not exists "650.{-,7}.a.Human rights") 
+OR (exists "650.{-,7}.a.Human rights") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000652"))
+then
+addField "YLK.{-,7}.a.Human rights\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Human rights\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000652" if (exists "YLK.{-,7}.a.Human rights\\.")
+end
+
+
+
+rule "add Circumcision"
+priority 99
+when
+((exists "650.{-,0}.a.Circumcision") OR (exists "650.{-,0}.a.Circumcision\\.")) 
+AND ((not exists "650.{-,7}.a.Circumcision") 
+OR (exists "650.{-,7}.a.Circumcision") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000269"))
+then
+addField "YLK.{-,7}.a.Circumcision\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Circumcision\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000269" if (exists "YLK.{-,7}.a.Circumcision\\.")
+end
+
+
+
+rule "add Chromosomes"
+priority 99
+when
+((exists "650.{-,0}.a.Chromosomes") OR (exists "650.{-,0}.a.Chromosomes\\.")) 
+AND ((not exists "650.{-,7}.a.Chromosomes") 
+OR (exists "650.{-,7}.a.Chromosomes") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000266"))
+then
+addField "YLK.{-,7}.a.Chromosomes\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Chromosomes\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000266" if (exists "YLK.{-,7}.a.Chromosomes\\.")
+end
+
+
+
+rule "add Children"
+priority 99
+when
+((exists "650.{-,0}.a.Children") OR (exists "650.{-,0}.a.Children\\.")) 
+AND ((not exists "650.{-,7}.a.Children") 
+OR (exists "650.{-,7}.a.Children") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000255"))
+then
+addField "YLK.{-,7}.a.Children\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Children\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000255" if (exists "YLK.{-,7}.a.Children\\.")
+end
+
+
+
+rule "add Censorship"
+priority 99
+when
+((exists "650.{-,0}.a.Censorship") OR (exists "650.{-,0}.a.Censorship\\.")) 
+AND ((not exists "650.{-,7}.a.Censorship") 
+OR (exists "650.{-,7}.a.Censorship") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000245"))
+then
+addField "YLK.{-,7}.a.Censorship\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Censorship\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000245" if (exists "YLK.{-,7}.a.Censorship\\.")
+end
+
+
+
+rule "add Celibacy"
+priority 99
+when
+((exists "650.{-,0}.a.Celibacy") OR (exists "650.{-,0}.a.Celibacy\\.")) 
+AND ((not exists "650.{-,7}.a.Celibacy") 
+OR (exists "650.{-,7}.a.Celibacy") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000244"))
+then
+addField "YLK.{-,7}.a.Celibacy\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Celibacy\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000244" if (exists "YLK.{-,7}.a.Celibacy\\.")
+end
+
+
+
+rule "add Castration"
+priority 99
+when
+((exists "650.{-,0}.a.Castration") OR (exists "650.{-,0}.a.Castration\\.")) 
+AND ((not exists "650.{-,7}.a.Castration") 
+OR (exists "650.{-,7}.a.Castration") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000241"))
+then
+addField "YLK.{-,7}.a.Castration\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Castration\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000241" if (exists "YLK.{-,7}.a.Castration\\.")
+end
+
+
+
+rule "add Butt"
+priority 99
+when
+((exists "650.{-,0}.a.Buttocks") OR (exists "650.{-,0}.a.Buttocks\\.")) 
+AND ((not exists "650.{-,7}.a.Butt") 
+OR (exists "650.{-,7}.a.Butt") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000232"))
+then
+addField "YLK.{-,7}.a.Butt\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Butt\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000232" if (exists "YLK.{-,7}.a.Butt\\.")
+end
+
+
+
+rule "add Siblings"
+priority 99
+when
+((exists "650.{-,0}.a.Siblings") OR (exists "650.{-,0}.a.Siblings\\.")) 
+AND ((not exists "650.{-,7}.a.Siblings") 
+OR (exists "650.{-,7}.a.Siblings") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001310"))
+then
+addField "YLK.{-,7}.a.Siblings\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Siblings\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0001310" if (exists "YLK.{-,7}.a.Siblings\\.")
+end
+
+
+
+rule "add Breast"
+priority 99
+when
+((exists "650.{-,0}.a.Breast") OR (exists "650.{-,0}.a.Breast\\.")) 
+AND ((not exists "650.{-,7}.a.Breast") 
+OR (exists "650.{-,7}.a.Breast") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000222"))
+then
+addField "YLK.{-,7}.a.Breast\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Breast\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000222" if (exists "YLK.{-,7}.a.Breast\\.")
+end
+
+
+
+rule "add Boys"
+priority 99
+when
+((exists "650.{-,0}.a.Boys") OR (exists "650.{-,0}.a.Boys\\.")) 
+AND ((not exists "650.{-,7}.a.Boys") 
+OR (exists "650.{-,7}.a.Boys") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000220"))
+then
+addField "YLK.{-,7}.a.Boys\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Boys\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000220" if (exists "YLK.{-,7}.a.Boys\\.")
+end
+
+
+
+rule "add Bondage"
+priority 99
+when
+((exists "650.{-,0}.a.Bondage (Sexual behavior)") OR (exists "650.{-,0}.a.Bondage (Sexual behavior)\\.")) 
+AND ((not exists "650.{-,7}.a.Bondage") 
+OR (exists "650.{-,7}.a.Bondage") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000086"))
+then
+addField "YLK.{-,7}.a.Bondage\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Bondage\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000086" if (exists "YLK.{-,7}.a.Bondage\\.")
+end
+
+
+
+rule "add Bladder exstrophy"
+priority 99
+when
+((exists "650.{-,0}.a.Bladder exstrophy") OR (exists "650.{-,0}.a.Bladder exstrophy\\.")) 
+AND ((not exists "650.{-,7}.a.Bladder exstrophy") 
+OR (exists "650.{-,7}.a.Bladder exstrophy") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002824"))
+then
+addField "YLK.{-,7}.a.Bladder exstrophy\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Bladder exstrophy\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002824" if (exists "YLK.{-,7}.a.Bladder exstrophy\\.")
+end
+
+
+
+rule "add Bisexuality"
+priority 99
+when
+((exists "650.{-,0}.a.Bisexuality") OR (exists "650.{-,0}.a.Bisexuality\\.")) 
+AND ((not exists "650.{-,7}.a.Bisexuality") 
+OR (exists "650.{-,7}.a.Bisexuality") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000204"))
+then
+addField "YLK.{-,7}.a.Bisexuality\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Bisexuality\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000204" if (exists "YLK.{-,7}.a.Bisexuality\\.")
+end
+
+
+
+rule "add Birth parents"
+priority 99
+when
+((exists "650.{-,0}.a.Birthparents") OR (exists "650.{-,0}.a.Birthparents\\.")) 
+AND ((not exists "650.{-,7}.a.Birth parents") 
+OR (exists "650.{-,7}.a.Birth parents") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000121"))
+then
+addField "YLK.{-,7}.a.Birth parents\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Birth parents\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000121" if (exists "YLK.{-,7}.a.Birth parents\\.")
+end
+
+
+
+rule "add Birth certificates"
+priority 99
+when
+((exists "650.{-,0}.a.Birth certificates") OR (exists "650.{-,0}.a.Birth certificates\\.")) 
+AND ((not exists "650.{-,7}.a.Birth certificates") 
+OR (exists "650.{-,7}.a.Birth certificates") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000119"))
+then
+addField "YLK.{-,7}.a.Birth certificates\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Birth certificates\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000119" if (exists "YLK.{-,7}.a.Birth certificates\\.")
+end
+
+
+
+rule "add Behavioral therapy"
+priority 99
+when
+((exists "650.{-,0}.a.Behavior therapy") OR (exists "650.{-,0}.a.Behavior therapy\\.")) 
+AND ((not exists "650.{-,7}.a.Behavioral therapy") 
+OR (exists "650.{-,7}.a.Behavioral therapy") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000106"))
+then
+addField "YLK.{-,7}.a.Behavioral therapy\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Behavioral therapy\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000106" if (exists "YLK.{-,7}.a.Behavioral therapy\\.")
+end
+
+
+
+rule "add Aversion therapy"
+priority 99
+when
+((exists "650.{-,0}.a.Aversion therapy") OR (exists "650.{-,0}.a.Aversion therapy\\.")) 
+AND ((not exists "650.{-,7}.a.Aversion therapy") 
+OR (exists "650.{-,7}.a.Aversion therapy") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000084"))
+then
+addField "YLK.{-,7}.a.Aversion therapy\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Aversion therapy\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000084" if (exists "YLK.{-,7}.a.Aversion therapy\\.")
+end
+
+
+
+rule "add Autoerotic asphyxiation"
+priority 99
+when
+((exists "650.{-,0}.a.Autoerotic asphyxia") OR (exists "650.{-,0}.a.Autoerotic asphyxia\\.")) 
+AND ((not exists "650.{-,7}.a.Autoerotic asphyxiation") 
+OR (exists "650.{-,7}.a.Autoerotic asphyxiation") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000075"))
+then
+addField "YLK.{-,7}.a.Autoerotic asphyxiation\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Autoerotic asphyxiation\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000075" if (exists "YLK.{-,7}.a.Autoerotic asphyxiation\\.")
+end
+
+
+
+rule "add Anal sex"
+priority 99
+when
+((exists "650.{-,0}.a.Anal sex") OR (exists "650.{-,0}.a.Anal sex\\.")) 
+AND ((not exists "650.{-,7}.a.Anal sex") 
+OR (exists "650.{-,7}.a.Anal sex") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000043"))
+then
+addField "YLK.{-,7}.a.Anal sex\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Anal sex\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000043" if (exists "YLK.{-,7}.a.Anal sex\\.")
+end
+
+
+
+rule "add Amazons"
+priority 99
+when
+((exists "650.{-,0}.a.Amazons") OR (exists "650.{-,0}.a.Amazons\\.")) 
+AND ((not exists "650.{-,7}.a.Amazons") 
+OR (exists "650.{-,7}.a.Amazons") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000040"))
+then
+addField "YLK.{-,7}.a.Amazons\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Amazons\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000040" if (exists "YLK.{-,7}.a.Amazons\\.")
+end
+
+
+
+rule "add Age of consent"
+priority 99
+when
+((exists "650.{-,0}.a.Age of consent") OR (exists "650.{-,0}.a.Age of consent\\.")) 
+AND ((not exists "650.{-,7}.a.Age of consent") 
+OR (exists "650.{-,7}.a.Age of consent") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000020"))
+then
+addField "YLK.{-,7}.a.Age of consent\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Age of consent\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000020" if (exists "YLK.{-,7}.a.Age of consent\\.")
+end
+
+
+
+rule "add African American lesbians"
+priority 99
+when
+((exists "650.{-,0}.a.African American lesbians") OR (exists "650.{-,0}.a.African American lesbians\\.")) 
+AND ((not exists "650.{-,7}.a.African American lesbians") 
+OR (exists "650.{-,7}.a.African American lesbians") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000714"))
+then
+addField "YLK.{-,7}.a.African American lesbians\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.African American lesbians\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000714" if (exists "YLK.{-,7}.a.African American lesbians\\.")
+end
+
+
+
+rule "add Congenital adrenal hyperplasia"
+priority 99
+when
+((exists "650.{-,0}.a.Adrenogenital syndrome") OR (exists "650.{-,0}.a.Adrenogenital syndrome\\.")) 
+AND ((not exists "650.{-,7}.a.Congenital adrenal hyperplasia") 
+OR (exists "650.{-,7}.a.Congenital adrenal hyperplasia") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000301"))
+then
+addField "YLK.{-,7}.a.Congenital adrenal hyperplasia\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Congenital adrenal hyperplasia\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000301" if (exists "YLK.{-,7}.a.Congenital adrenal hyperplasia\\.")
+end
+
+
+
+rule "add LGBTQ+ community centers"
+priority 99
+when
+((exists "650.{-,0}.a.LGBT community centers") OR (exists "650.{-,0}.a.LGBT community centers\\.")) 
+AND ((not exists "650.{-,7}.a.LGBTQ+ community centers") 
+OR (exists "650.{-,7}.a.LGBTQ+ community centers") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000298"))
+then
+addField "YLK.{-,7}.a.LGBTQ+ community centers\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.LGBTQ+ community centers\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000298" if (exists "YLK.{-,7}.a.LGBTQ+ community centers\\.")
+end
+
+
+
+rule "add White feminism"
+priority 99
+when
+((exists "650.{-,0}.a.White feminism") OR (exists "650.{-,0}.a.White feminism\\.")) 
+AND ((not exists "650.{-,7}.a.White feminism") 
+OR (exists "650.{-,7}.a.White feminism") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002271"))
+then
+addField "YLK.{-,7}.a.White feminism\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.White feminism\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0002271" if (exists "YLK.{-,7}.a.White feminism\\.")
+end
+
+
+
+rule "add Drag kings"
+priority 99
+when
+((exists "650.{-,0}.a.Drag kings") OR (exists "650.{-,0}.a.Drag kings\\.")) 
+AND ((not exists "650.{-,7}.a.Drag kings") 
+OR (exists "650.{-,7}.a.Drag kings") AND (not exists "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000373"))
+then
+addField "YLK.{-,7}.a.Drag kings\\."
+addSubField "YLK.{-,7}.2.homoit" if (exists "YLK.{-,7}.a.Drag kings\\.")
+addSubField "YLK.{-,7}.0.https://homosaurus.org/v3/homoit0000373" if (exists "YLK.{-,7}.a.Drag kings\\.")
+end
+
+
+
+rule "remove duplicate YLK subfields"
+priority 97
+when
+(TRUE)
+then
+correctDuplicateSubfields "YLK" "a,0,2"
+end
+
+rule "remove duplicate YLK fields"
+priority 96
+when
+(TRUE)
+then
+correctDuplicateFields "YLK"
+end
+
+rule "flip YLK to 650"
+priority 95
+when
+(TRUE)
+then
+changeField "YLK" to "650"
+end
